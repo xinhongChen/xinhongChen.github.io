@@ -6,16 +6,16 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Hexo</title>
+  <title>Vison&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+<meta property="og:title" content="Vison's Blog">
 <meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="Vison's Blog">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="Vison's Blog">
   
-    <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternative" href="/atom.xml" title="Vison&#39;s Blog" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
@@ -42,10 +42,10 @@
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
-			<img src="null" class="js-avatar">
+			<img src="http://olv79cybp.bkt.clouddn.com/image/png/lovely.pnglovely.png" class="js-avatar">
 		</a>
 		<hgroup>
-		  <h1 class="header-author"><a href="/">John Doe</a></h1>
+		  <h1 class="header-author"><a href="/">Vison</a></h1>
 		</hgroup>
 		
 
@@ -100,10 +100,10 @@
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<img src="null" class="js-avatar">
+				<img src="http://olv79cybp.bkt.clouddn.com/image/png/lovely.pnglovely.png" class="js-avatar">
 			</div>
 			<hgroup>
-			  <h1 class="header-author js-header-author">John Doe</h1>
+			  <h1 class="header-author js-header-author">Vison</h1>
 			</hgroup>
 			
 			
@@ -151,35 +151,49 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-SSH配置多对密钥" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/02/20/hello-world/">Hello World</a>
+      <a class="article-title" href="/2017/02/23/SSH配置多对密钥/">SSH配置多对密钥</a>
     </h1>
   
 
         
-        <a href="/2017/02/20/hello-world/" class="archive-article-date">
-  	<time datetime="2017-02-20T10:25:32.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-02-20</time>
+        <a href="/2017/02/23/SSH配置多对密钥/" class="archive-article-date">
+  	<time datetime="2017-02-23T10:14:36.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-02-23</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+        <blockquote>
+<p>SSH 配置多对密钥</p>
+</blockquote>
+<p>最近公司使用<code>GitLab</code>来托管代码，而个人通常会把私人代码托管到 <code>Github</code> 上，公司企业邮箱与私人邮箱不同，所以产生的<code>SSH key</code>不一样，那么本地就会存在多对<code>SSH</code>的密钥，下面讲讲如何配置使用不同的密钥来访问不同的<code>Host</code>主机通过查阅到的一些资料，大多是通过<code>SSH</code>的<code>config</code> 文件来实现不同的域名采用不同的密钥来认证，下面是以<code>Mac（macOS Sierra 10.12）</code>环境为例来介绍该如何操作</p>
+<h4 id="1、生成新的密钥"><a href="#1、生成新的密钥" class="headerlink" title="1、生成新的密钥"></a>1、生成新的密钥</h4><p>确保ssh文件夹已经创建好，路径为<code>~/.ssh/</code>（如果没有.ssh文件夹则手动创建即可）</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ mkdir ~/.ssh</div></pre></td></tr></table></figure>
+<p>创建新<code>SSH</code>密钥</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ ssh-keygen -t rsa -f ~/.ssh/id_rsa_github -C &quot;个人邮箱&quot;</div></pre></td></tr></table></figure>
+<h4 id="2、上传公钥"><a href="#2、上传公钥" class="headerlink" title="2、上传公钥"></a>2、上传公钥</h4><p>SSH密钥生成结束后，你可以在SSH目录下看到私钥<code>id_rsa_github</code>和公钥<code>id_rsa_github.pub</code>这两个文件，不要把私钥文件<code>id_rsa_github</code>的信息透露给任何人。我们可以通过文本编辑器或cat命令来查看<code>id_rsa.pub</code>公钥信息，然后将将公钥内容上传到指定的地方。</p>
+<blockquote>
+<p>对于Mac用户推荐使用<code>pbcopy &lt; ~/.ssh/id_rsa_github.pub</code>直接复制到剪切板，</p>
+</blockquote>
+<h4 id="3、配置config文件"><a href="#3、配置config文件" class="headerlink" title="3、配置config文件"></a>3、配置config文件</h4><p><code>cd</code>进入<code>~/.ssh</code>目录，生成config文件，config文件的内容大致为：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">Host gitlab.powerdata.com.cn</div><div class="line">IdentityFile ~/.ssh/id_rsa</div><div class="line">    </div><div class="line">Host github.com</div><div class="line">IdentityFile ~/.ssh/id_rsa_github</div></pre></td></tr></table></figure>
+<ul>
+<li>参数 <code>Host</code> 为 <code>git</code>仓库的域名或者 IP。</li>
+<li>参数 <code>IdentityFile</code> 为对应的私钥地址</li>
+</ul>
+<p>完成上述操作，现在~/.ssh目录的结构大致如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">├── .ssh</div><div class="line">│   ├── config</div><div class="line">│   ├── id_rsa</div><div class="line">│   ├── id_rsa_github</div><div class="line">│   ├── id_rsa_github.pub</div><div class="line">│   ├── id_rsa.pub</div><div class="line">│   └── known_hosts</div></pre></td></tr></table></figure>
+<h4 id="4、-测试连接"><a href="#4、-测试连接" class="headerlink" title="4、 测试连接"></a>4、 测试连接</h4><p>输入<code>ssh -T git@github.com</code> ,若出现下面的字符:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Hi Vison! You&apos;ve successfully authenticated, but GitHub does not provide shell access.</div></pre></td></tr></table></figure>
+<p>表明成功。</p>
 
       
 
@@ -192,7 +206,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2017/02/20/hello-world/">展开全文 >></a>
+          <a class="article-more-a" href="/2017/02/23/SSH配置多对密钥/">展开全文 >></a>
         </p>
       
 
@@ -220,7 +234,7 @@
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-    		&copy; 2017 John Doe
+    		&copy; 2017 Vison
     	</div>
       	<div class="footer-right">
       		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
